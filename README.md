@@ -3,5 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-
-<a href:="https://jairozioti.github.io/html-css/modulo02/desafios/d010/index.html">Projeto site História do Android</a>
+<a href="https://jairozioti.github.io/html-css/modulo02/desafios/d010/index.html">Projeto Android</a>
