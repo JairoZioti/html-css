@@ -1,4 +1,4 @@
 # html-css
  Estudos de HTML5 e CSS3
 
- Aulas do site cursoemvideo
+Estou aprendendo a criar sites e agora vou geenciar meus repositórios!
