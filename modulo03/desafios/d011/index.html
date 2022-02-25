@@ -9,9 +9,32 @@
 </head>
 
 <body>
-    <section>
-        <article></article>
-    </section>
+    <div class="container">
+        <img class="conteudo" src="image/astronauta.png" alt="Astronauta">
+    </div>
 </body>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        background-image: url(image/espaco.jpg);
+        background-size: 100% 100%;
+
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .conteudo {
+        position: absolute;
+        left: 50%;
+        height: 50%;
+        transform: translate(-50%, 50%);
+    }
+</style>
 
 </html>
