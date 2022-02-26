@@ -7,6 +7,241 @@
     <title>Tabela Grande</title>
 </head>
 <body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <!-- ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        CAPTION
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+             TR, TH, TD
     
+    -->
+
+    <Table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="position">1</td>
+                <td>São Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td class="position">2</td>
+                <td>Minas Gerais</td>
+                <td class="numero">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td class="position">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+
+            <tr>
+                <td class="position">4</td>
+                <td>Bahia</td>
+                <td class="numero">14 873 064</td>
+            </tr>
+
+            <tr>
+                <td class="position">5</td>
+                <td>Paraná</td>
+                <td class="numero">11 433 957</td>
+            </tr>
+
+            <tr>
+                <td class="position">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+
+            <tr>
+                <td class="position">7</td>
+                <td>Pernambuco</td>
+                <td class="numero">9 557 071</td>
+            </tr>
+
+            <tr>
+                <td class="position">8</td>
+                <td>Ceará</td>
+                <td class="numero">9 132 078</td>
+            </tr>
+
+            <tr>
+                <td class="position">9</td>
+                <td>Pará</td>
+                <td class="numero">8 602 865</td>
+            </tr>
+
+            <tr>
+                <td class="position">10</td>
+                <td>Santa Catarina</td>
+                <td class="numero">7 164 788</td>
+            </tr>
+
+            <tr>
+                <td class="position">11</td>
+                <td>Maranhão</td>
+                <td class="numero">7 075 181</td>
+            </tr>
+
+            <tr>
+                <td class="position">12</td>
+                <td>Goiás</td>
+                <td class="numero">7 018 354</td>
+            </tr>
+
+            <tr>
+                <td class="position">13</td>
+                <td>Amazonas</td>
+                <td class="numero">4 144 597</td>
+            </tr>
+
+            <tr>
+                <td class="position">14</td>
+                <td>Espírito Santo</td>
+                <td class="numero">4 018 650</td>
+            </tr>
+
+            <tr>
+                <td class="position">15</td>
+                <td>Paraíba</td>
+                <td class="numero">4 018 127</td>
+            </tr>
+
+            <tr>
+                <td class="position">16</td>
+                <td>Rio Grande do Norte</td>
+                <td class="numero">3 506 853</td>
+            </tr>
+
+            <tr>
+                <td class="position">17</td>
+                <td>Mato Grosso</td>
+                <td class="numero">3 484 466</td>
+            </tr>
+
+            <tr>
+                <td class="position">18</td>
+                <td>Alagoas</td>
+                <td class="numero">3 337 357</td>
+            </tr>
+
+            <tr>
+                <td class="position">19</td>
+                <td>Píau</td>
+                <td class="numero">3 273 227</td>
+            </tr>
+
+            <tr>
+                <td class="position">20</td>
+                <td>Distrito Federal</td>
+                <td class="numero">3 015 268</td>
+            </tr>
+
+            <tr>
+                <td class="position">21</td>
+                <td>Mato Grosso do Sul</td>
+                <td class="numero">2 778 968</td>
+            </tr>
+
+            <tr>
+                <td class="position">22</td>
+                <td>Sergipe</td>
+                <td class="numero">2 298 696</td>
+            </tr>
+
+            <tr>
+                <td class="position">23</td>
+                <td>Rondônia</td>
+                <td class="numero">1 777 225</td>
+            </tr>
+
+            <tr>
+                <td class="position">24</td>
+                <td>Tocatins</td>
+                <td class="numero">1 572 866</td>
+            </tr>
+
+            <tr>
+                <td class="position">25</td>
+                <td>Acre</td>
+                <td class="numero">881 935</td>
+            </tr>
+
+            <tr>
+                <td class="position">26</td>
+                <td>Amapá</td>
+                <td class="numero">845 731</td>
+            </tr>
+
+            <tr>
+                <td class="position">27</td>
+                <td>Roraima</td>
+                <td class="numero">605 761</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td scope="row"></td>
+                <td scope="row" class="numero"><strong>210 147 125</strong></td>
+            </tr>
+        </tfoot>
+    </Table>
+
 </body>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        width: 500px;
+        border-collapse: collapse;
+    }
+
+    caption {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    thead, tfoot {
+        background-color: #505050;
+        color: white;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .position {
+        text-align: center;
+        width: 30px;
+    }
+
+    .numero {
+        text-align: right;
+    }
+</style>
 </html>
