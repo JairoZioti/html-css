@@ -12,6 +12,9 @@
 
     <div id="container">
         <table>
+            <colgroup>
+            <col class="colGroup" span="1">
+            </colgroup>
             <caption>Tabelas Responsivas</caption>
             <thead>
                 <tr>
@@ -152,6 +155,7 @@
 
     table {
         border-collapse: collapse;
+        position: relative;
     }
 
     caption {
@@ -168,6 +172,11 @@
 
     tr:nth-child(even) {
         background-color: rgb(228, 228, 228);
+    }
+
+    .colGroup {
+        position: sticky;
+        left: -1px;
     }
 </style>
 
